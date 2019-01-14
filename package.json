@@ -1,0 +1,16 @@
+{
+  "name": "marge_files",
+  "version": "1.0.0",
+  "description": "Program do łączenia plików",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marge",
+    "files",
+    "node"
+  ],
+  "author": "sebastiangolian <sebastiangolian@gmail.com>",
+  "license": "MIT"
+}
