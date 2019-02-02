@@ -1,5 +1,5 @@
 {
-  "name": "merge-files",
+  "name": "node-merge-files",
   "version": "1.0.0",
   "description": "",
   "main": "js/app.js",
@@ -10,7 +10,10 @@
   },
   "author": "sebastiangolian <sebastiangolian@gmail.com>",
   "dependencies": {
+    "@types/fs-extra": "^5.0.4",
     "@types/node": "^10.12.21",
+    "fs-extra": "^7.0.1",
+    "merge-files": "^0.1.1",
     "node": "^11.9.0"
   }
 }
