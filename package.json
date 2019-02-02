@@ -1,16 +1,16 @@
 {
-  "name": "marge_files",
+  "name": "merge-files",
   "version": "1.0.0",
-  "description": "Program do łączenia plików",
-  "main": "index.js",
+  "description": "",
+  "main": "js/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./js/app.js",
+    "build": "tsc",
+    "watch": "tsc --w"
   },
-  "keywords": [
-    "marge",
-    "files",
-    "node"
-  ],
   "author": "sebastiangolian <sebastiangolian@gmail.com>",
-  "license": "MIT"
+  "dependencies": {
+    "@types/node": "^10.12.21",
+    "node": "^11.9.0"
+  }
 }
