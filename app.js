@@ -22,6 +22,8 @@ function mergeAllFiles(path) {
     })
     .then((files) => {
         return files.map((element) => {
+            if(element != "output.txt") 
+                console.log("Add file: " + element)
             return path + "\\" + element;
         })
     })
